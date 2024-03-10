@@ -6,4 +6,4 @@ while task.wait() do
         VirtualInputManager:SendKeyEvent(false, "Space", false, game)
         task.wait(3)
 end
-end
+ end
