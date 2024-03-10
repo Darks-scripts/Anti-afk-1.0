@@ -2,8 +2,8 @@ while true do
 local VirtualInputManager = game:GetService("VirtualInputManager")
 while task.wait() do
         VirtualInputManager:SendKeyEvent(true, "Space", false, game)
-        task.wait(.2)
+        task.wait(60)
         VirtualInputManager:SendKeyEvent(false, "Space", false, game)
-        task.wait(3)
+        task.wait(60)
 end
  end
